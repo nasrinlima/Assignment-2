@@ -254,3 +254,75 @@
     border-radius: 16px;
     background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(Images/Rectangle\ 10.png), lightgray 50% / cover no-repeat;
 }
+
+/* choose area */
+
+.choose{
+    width: 1170px;
+    margin: 100px auto 0;
+    di
+
+}
+.choose .us h3{
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 40px;
+    font-weight: 800;
+
+}
+.choose .us p{
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    width: 643px;
+    margin: 0 auto;
+}
+.two-part {
+    display: flex;
+    margin-top: 70px;
+}
+.choose .hotel{
+    width: 573px;
+    height: 284px;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(255, 137, 3, 0.15);
+    padding: 50px 40px 0;
+}
+.choose .map{
+    width: 573px;
+    height: 284px;
+    margin-left: 24px;
+    border-radius: 16px;
+    border:1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.15);
+    padding: 50px 40px 0;
+}
+.choose .price{
+    width: 570px;
+    height: 284px;
+    border-radius: 16px;
+    border:1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.15);
+    padding: 50px 40px 0;
+    margin-top: 24px;
+    margin-left: 268px;
+}
+.hotel h3, .map h3, .price h3 {   
+    color: #131318;
+    font-family: Mulish;
+    font-size: 24px;
+    font-weight: 800;
+
+}
+.hotel p, .map p, .price p{
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
