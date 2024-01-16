@@ -108,6 +108,7 @@
     background: #FF5400;
     border: none;
     margin-left: 10px;
+    color: #FFF;
 }
 
 /* popular area */
@@ -418,6 +419,7 @@
 .customer{
     width: 1170px;
     margin: 0 auto;
+    height: 700px;
 }
 .review{
     display: flex;
@@ -445,10 +447,6 @@
     width: 281px;
     margin-right: 24px;
 }
-/* .review .customer1 img{
-    height: 70px;
-    border-radius: 100%;
-} */
 .review .customer1 #one{
     border: 5px solid lawngreen;
     width: 50px;
@@ -504,6 +502,7 @@
    width: 70px;
    height: 70px;
    border-radius: 100%;
+   border: 3px solid rgb(238, 234, 3);
 }
 
 .review .customer2 .intro h1{
@@ -547,3 +546,55 @@
     top: 250px;
     left: 80px;
 }
+
+/* footer area */
+.footer{
+    width: 1170px;
+    margin: 100px auto;
+}
+.foot{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.foot img{
+    width: 50px;
+    height: 50px;
+    margin-top: 15px;
+}
+.foot h1{
+    color: var(--Dark-01, #131318);
+    font-family: Mulish;
+    font-size: 32px;
+    font-weight: 800;
+}
+.foot h1 span{
+    color: #FF5400;
+}
+.foot2{
+    width: 650px;
+    justify-content: center;
+    margin: 0 auto;
+}
+.foot2 p{
+    color: #5A5A5D;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    justify-content: center; 
+}
+.foot2 img{
+    justify-content: center; 
+    margin-left: 240px;
+    margin-top: 20px;
+}
+hr{
+    margin: 40px 0;
+}
+.foot3 h5{
+    margin-left: 44%;
+}
+
+
