@@ -113,6 +113,262 @@
         width: 100%;
         height: 450px;
     }
+    /* our destination area */
+    .destination{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .destination .text-area h1{
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    .destination .text-area p{
+        font-size: 14px;
+        line-height: 24px;
+        width: 100%; 
+        margin-bottom: 0;   
+    }
+    .image-top{
+        display: block;
+        margin-top: 0;
+    }
+    .image-top .one, .image-top .two{
+        width: 100%;
+        height: 276px;
+        margin: 0;
+    }
+    .image-top h3, .image-middle h3, .image-bottom h3{
+        font-size: 30px;
+        align-items: center;
+        padding-top: 100px;
+    }
+    .image-middle{
+        display: block;
+        margin-top: 0;
+    }
+    .image-middle .three, .image-middle .four{
+        width: 100%;
+        height: 276px;
+        margin: 0;
+    }
+    .image-middle .five {
+        width: 100%;
+        height: 276px;
+        margin-left: 0;
+    }
+    .image-bottom{
+        display: block;
+    }
+    .image-bottom .six, .image-bottom .seven{
+        width: 100%;
+        height: 276px;
+    }
+    
+    /* choose area */
+
+    .choose{
+        width: 100%;
+    
+    }
+    .choose .us h3{
+         font-size: 20px;
+    }
+    .choose .us p{
+        font-size: 14px;
+        line-height: 24px;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .two-part {
+        display: block;
+        margin-top: 50px;
+    }
+    .choose .hotel{
+        width: 100%;
+        height: 300px;
+        padding: 30px 0 0 0;
+    }
+    .choose .hotel p{
+        padding: 0 30px;
+    }
+    .choose .hotel h3{
+        padding: 0 30px;
+    }
+    .choose .hotel img{
+        padding: 0 30px;
+    }
+    .choose .map{
+        width: 100%;
+        height: 300px;
+        padding: 30px 0 0 0;
+        margin-top: 24px;
+        margin-left: 0;
+    }
+    .choose .map p{
+        padding: 0 30px;
+    }
+    .choose .map h3{
+        padding: 0 30px;
+    }
+    .choose .map img{
+        padding: 0 30px;
+    }
+    .choose .price{
+        width: 100%;
+        height: 350px;
+        padding: 30px 0 0 0;
+        margin-top: 24px;
+        margin-left: 0;
+    }
+    .choose .price p{
+        padding: 0 30px;
+    }
+    .choose .price h3{
+        padding: 0 30px;
+    }
+    .choose .price img{
+        padding: 0 30px;
+    }
+
+    /* newsletter area */
+    .newsletter{
+        width: 100%;
+        height: 850px;
+        display: block;
+        margin: 100px auto 0;
+    }
+    .newsletter .form{
+        width: 100%;
+    }
+    .form{
+        width: 100%;
+        padding: 20px 0;
+        text-align: center;
+    }
+    .form input{
+        width: 90%;
+        height: 52px;
+        margin-top: 10px;
+        padding-left: 10px;
+    }
+    .form button{
+        width: 95%;
+        height: 52px;
+        margin-top: 20px;
+        
+    }
+    .form p{
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .newsletter .sider{
+        width: 100%;
+        padding: 0;
+        margin-top: 24px;
+    }
+    .upper{
+        width: 150px;
+        height: 60px;    
+        padding: 10px;
+        position: relative;
+        top: 310px;
+        left: 160px;
+    }
+    .upper h3{
+        font-size: 14px;
+        margin-bottom: 0;
+    }
+    .upper h1{
+        font-size: 18px;
+    }
+
+    /* customers review */
+
+    .customer{
+        width: 100%;
+        margin: 0 auto;
+        height: 900px;
+    }
+    .review{
+        display: block;
+    }
+    .head{
+        margin: 0 auto;
+        width: 100%;
+    }
+    .customer .head h1{
+        font-size: 20px;
+        line-height: 40px; 
+        padding-bottom: 20px;
+        margin-top: 50px;
+    }
+    .review .customer1 #two{
+        position: relative;
+        top: -20px;
+        left: 200px;
+    }  
+    .review .customer1 #one{
+        position: relative;
+        top: -20px;
+    
+    }
+    .review .customer1 #three{
+        position: relative;
+        top: -70px;
+       left: -20px;
+    }
+    .review .customer1 #four{
+        position: relative;
+        top: 350px;
+        right: 80px;
+    } 
+    .review .customer3 #five{
+        position: relative;
+        left: 280px;
+    }
+    .review .customer3 #six{
+        position: relative;
+        top: 120px;
+        left: -40px;
+    }
+    .review .customer3 #seven{
+        position: relative;
+        top: 150px;
+        left: 80px;
+    } 
+    .review .customer2{
+        width: 100%;
+    } 
+    .review .customer2 .intro{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .customer2 p{
+        font-size: 14px;
+        line-height: 24px;
+    }
+    /* footer area */
+    .footer{
+        width: 100%;
+        margin: 100px auto;
+    }
+    .foot{
+        width: 100%;
+    }
+    .foot2{
+        width: 100%;
+        justify-content: center;
+        margin: 0 auto;
+    }
+    .foot2 img{
+        justify-content: center; 
+        margin-left: 85px;
+        margin-top: 10px;
+    }
+    .foot3 h5{
+        margin-left: 30%;
+    }
 
 
 }
