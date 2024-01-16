@@ -335,7 +335,7 @@
     margin: 100px auto 0;
 }
 .newsletter .form{
-    width: 474px;
+    width: 450px;
     border-radius: 8px;
     margin-right: 24px;
     border: 2px solid #FF5400;
@@ -362,7 +362,7 @@
     transform: rotate(-20.628deg);
     position: relative;
     top: 278px;
-    left: 435px;
+    left: 400px;
 }
 .upper h3{
     color: #FFF;
@@ -379,4 +379,36 @@
     font-size: 24px;
     font-weight: 800;
     margin-top: 0;
+}
+.form{
+    padding: 30px 40px;
+}
+.form input{
+    width: 400px;
+    height: 52px;
+    margin-top: 20px;
+    border: 1px solid lightslategray ;
+    border-radius: 8px;
+    padding-left: 20px;
+    background: rgba(19, 19, 24, 0.05);
+
+
+}
+.form button{
+    width: 424px;
+    height: 52px;
+    margin-top: 20px;
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    border: none;
+    padding: 0 20px;
+}
+.form p{
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    width: 350px;
 }
