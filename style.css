@@ -95,10 +95,7 @@
     margin: 30px auto;
     border-radius: 8px;
     background: rgba(255, 255, 255, 0.30);
-}
-.button i {
-    padding: 10px 10px 0 0;
-}  
+} 
 .button input{
     border: none;
     width: 160px;
@@ -111,6 +108,7 @@
 .button button{
     width: 160px;
     height: 52px;
+    padding-top: 0;
     border-radius: 8px;
     background: #FF5400;
     border: none;
@@ -555,7 +553,6 @@
 .footer{
     width: 1170px;
     margin: 100px auto;
-    background: rgba(19, 19, 24, 0.06);
 }
 .foot{
     display: flex;
