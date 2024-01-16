@@ -261,7 +261,6 @@
 .choose{
     width: 1170px;
     margin: 100px auto 0;
-    di
 
 }
 .choose .us h3{
@@ -427,7 +426,6 @@
 .head{
     margin: 0 auto;
     width: 600px;
-
 }
 .customer .head h1{
     text-align: center;
@@ -525,7 +523,6 @@
     height: 50px;
     border-radius: 100%;
     position: relative;
-    /* top: 50px; */
     left: 250px;
 }
 .review .customer3 #six{
@@ -535,7 +532,7 @@
     border-radius: 100%;
     position: relative;
     top: 120px;
-    left: ;: 50px;
+    left: 50px;
 }
 .review .customer3 #seven{
     border: 5px solid rgb(53, 117, 255);
